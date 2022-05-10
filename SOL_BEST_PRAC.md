@@ -28,4 +28,5 @@
 - Mainnet Forking --> Fork & Test on the real environment
 - Don't make useless optimizations, security is the top priority
 - CI/CD (block merging PRs)
+- A dex is a decentralized exchange but a centralized price oracle 
 
