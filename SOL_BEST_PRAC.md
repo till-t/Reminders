@@ -22,5 +22,10 @@
 - Avoid *tx.origin*, use *msg.sender*
 - Divide before multiply
 - Use *increaseAllowance* & *decreaseAllowance* instead of *approve*
-- $\pi$
--
+- Check for address (0x0)
+- Always test extreme case of external integrations 
+    - Can Uniswap run out of liquidity? test that scenario
+- Mainnet Forking --> Fork & Test on the real environment
+- Don't make useless optimizations, security is the top priority
+- CI/CD (block merging PRs)
+
