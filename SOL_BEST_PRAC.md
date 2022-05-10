@@ -17,10 +17,10 @@
 - Modifiers should't update state
 - Use safemath when using solc less than 0.8.0
 - Use rentrancy guard
-- Send ETH via call, avoid transfer and send
+- Send ETH via *call*, avoid *transfer* and *send*
 - Avoid pseudo randomess (use chainlink VRF)
-- Avoid tx.origin, use msg.sender
+- Avoid *tx.origin*, use *msg.sender*
 - Divide before multiply
-- Use *increaseAllowance* & *decreaseAllowance* instead of approve
+- Use *increaseAllowance* & *decreaseAllowance* instead of *approve*
+- $\pi$
 -
-- 
