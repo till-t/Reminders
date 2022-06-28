@@ -6,6 +6,5 @@
 - type ` git commit -a -m 'init commit' `
 - type ` git remote add origin <path-here> `
 - type ` git config --global push.default simple `
-- type ` git config --global push.default simple `
-- type ` git push --set-upstream origin master `
+- type ` git push --set-upstream origin main `
 
